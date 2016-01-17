@@ -4,7 +4,7 @@
         <title>Twitch tutorial by-mistake</title>
     </head>
     <body>
-        <h1>Hello twich people:)</h1>
+        <h1>Hello twitch people:)</h1>
     </body>
 </html>
 
