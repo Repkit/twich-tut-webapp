@@ -32,59 +32,30 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/carousel.css" rel="stylesheet">
     
-    <style type="text/css">
-        #map {
-          height: 200px;
-          width: 200px;
-        }
+    <style>
+      body {
+        background:
+        radial-gradient(#FAFAFA 15%, transparent 16%) 0 0,
+        radial-gradient(#FAFAFA 15%, transparent 16%) 2px 2px,
+        radial-gradient(#FAFAFA 15%, transparent 20%) 0 1px,
+        radial-gradient(#FAFAFA 15%, transparent 20%) 2px 3px;
+        background-color:#FFF;
+        background-size:7px 7px;
+      }
+      
+      .featurette-divider{
+        border-top: 1px solid #ADADAD;
+      }
+      
     </style>
+    
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <!--<div class="navbar-wrapper">-->
-    <!--  <div class="container">-->
 
-    <!--    <nav class="navbar navbar-inverse navbar-static-top">-->
-    <!--      <div class="container">-->
-    <!--        <div class="navbar-header">-->
-    <!--          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">-->
-    <!--            <span class="sr-only">Toggle navigation</span>-->
-    <!--            <span class="icon-bar"></span>-->
-    <!--            <span class="icon-bar"></span>-->
-    <!--            <span class="icon-bar"></span>-->
-    <!--          </button>-->
-    <!--          <a class="navbar-brand" href="#">Project name</a>-->
-    <!--        </div>-->
-    <!--        <div id="navbar" class="navbar-collapse collapse">-->
-    <!--          <ul class="nav navbar-nav">-->
-    <!--            <li class="active"><a href="#">Home</a></li>-->
-    <!--            <li><a href="#about">About</a></li>-->
-    <!--            <li><a href="#contact">Contact</a></li>-->
-    <!--            <li class="dropdown">-->
-    <!--              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
-    <!--              <ul class="dropdown-menu">-->
-    <!--                <li><a href="#">Action</a></li>-->
-    <!--                <li><a href="#">Another action</a></li>-->
-    <!--                <li><a href="#">Something else here</a></li>-->
-    <!--                <li role="separator" class="divider"></li>-->
-    <!--                <li class="dropdown-header">Nav header</li>-->
-    <!--                <li><a href="#">Separated link</a></li>-->
-    <!--                <li><a href="#">One more separated link</a></li>-->
-    <!--              </ul>-->
-    <!--            </li>-->
-    <!--          </ul>-->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--    </nav>-->
-
-    <!--  </div>-->
-    <!--</div>-->
-
-
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -93,31 +64,29 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="http://res.cloudinary.com/repkit-by-mistake-com/image/upload/c_crop,h_500,w_1024/v1453657970/6320428250_f035c53bb7_b_stpcxl.jpg" alt="First slide">
+          <img class="first-slide" src="http://res.cloudinary.com/repkit-by-mistake-com/image/upload/v1454255141/creative_yhigku.png" alt="Creative">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Bran castle from Romania</h1>
-              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
+              <h1>Creativity</h1>
+              <p>...  is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn't really do it, they just saw something. It seemed obvious to them after a while. That's because they were able to connect experiences they've had and synthesize new things.</p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="http://res.cloudinary.com/repkit-by-mistake-com/image/upload/c_scale,h_500,w_1024/v1453658629/Castelul_Peles__Sinaia_-_Vedere_panoramica_askla4.jpg" alt="Second slide">
+          <img class="second-slide" src="http://res.cloudinary.com/repkit-by-mistake-com/image/upload/c_scale,h_1000/v1454255148/analytical_vbuoar.png" alt="Analitycal">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Peles castle from Romania.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
+              <h1>Analitycal</h1>
+              <p>The advantage of the analytical approach is that it is widely applicable, and it can provide a considerable amount of quantitative information even with a relatively poor resolving power.</p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="http://res.cloudinary.com/repkit-by-mistake-com/image/upload/c_scale,h_500,w_1024/v1453658703/1280px-RO_HD_Hunedoara_castle_panorama_2_hwkswk.jpg" alt="Third slide">
+          <img class="third-slide" src="http://res.cloudinary.com/repkit-by-mistake-com/image/upload/e_negate/v1454255138/focus-on-performance_l8ejwk.png" alt="Performance focus">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Hunedoara castle from Romania</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>-->
+              <h1>Focused</h1>
+              <p>Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and focused effort.</p>
             </div>
           </div>
         </div>
@@ -133,54 +102,26 @@
     </div><!-- /.carousel -->
 
 
+
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="img-circle"><i class="fa fa-fort-awesome fa-5x" style="color:#FFAEAE;"></i></div>        
-          <h2>Fortified</h2>
-          <p>Our knowledge it's fortified by experience:)</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <i class="fa fa-map fa-5x" style="color:#B0E57C;"></i>        
-          <h2>Mindmap</h2>
-          <p>Our mind is mapped to the succes path ^_^</p>
-          <div style="margin-left: 30px;">
-          <div id="map" style="width:300px; height:200px;"></div>
-          </div>    
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <i class="fa fa-twitter fa-5x" style="color:#3B94D9;"></i>    
-          <h2>Twitter</h2>
-          <p>You can  follow me on twitter.</p>
-          <a href="https://twitter.com/ideasbymistake" class="twitter-follow-button" data-show-count="false">Follow @ideasbymistake</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
       <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
-
       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="col-md-9">
+          <h2 class="">Why to become <span class="text-muted">...a <a href="by-mistake.com">mistaker</a></span>?</h2>
+          <p class="lead">I hope that in this year to come, you make mistakes. Because if you are making mistakes, then you are making new things, trying new things, learning, living, pushing yourself, changing yourself, changing your world. You're doing things you've never done before, and more importantly, you're doing something.</p>
         </div>
-        <div class="col-md-5">
-          <a class="twitter-timeline" href="https://twitter.com/ideasbymistake" data-widget-id="691327534701662208">Tweets by @ideasbymistake</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <div class="col-md-3" style="margin-top:50px;">
+          <img class="img-circle" src="https://avatars3.githubusercontent.com/u/2531428?v=3&s=460" alt="by-mistake.com" width="140" height="140">
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <!--<hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
@@ -190,13 +131,92 @@
         <div class="col-md-5 col-md-pull-7">
           <img class="featurette-image img-responsive center-block" src="http://res.cloudinary.com/repkit-by-mistake-com/image/upload/v1453660364/2014-10-12-obama_gel0bw.jpg" alt="Generic placeholder image">
         </div>
-      </div>
+      </div>-->
 
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
-
-
+      
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <i class="fa fa-facebook fa-5x" style="color:#3b5998;"></i>        
+          <h2>Like us on facebok</h2>
+          <div id="fb-root"></div>
+          <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=521983134508519";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+          <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="recommend" data-show-faces="false" data-share="true"></div>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="img-circle"><i class="fa fa-github fa-5x" style="color:black;"></i></div>        
+          <h2>See our github repo</h2>
+          <div class="col-lg-12">
+            <div class="github-card" data-user="ocramius"></div>
+          </div>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <i class="fa fa-twitter fa-5x" style="color:#3B94D9;"></i>    
+          <h2>Follow me on twitter.</h2>
+          <a href="https://twitter.com/ideasbymistake" class="twitter-follow-button" data-show-count="false">Follow @ideasbymistake</a>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      
+      <hr class="featurette-divider">
+      
+      <div class="row">
+        <div class="col-lg-4">
+          <div id="disqus_thread"></div>
+          <script>
+          /**
+          * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+          * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+          */
+          /*
+          var disqus_config = function () {
+          this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+          */
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          
+          s.src = '//repkit.disqus.com/embed.js';
+          
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        </div>
+        <div class="col-lg-4 well">
+          <!-- Do not change the code! -->
+          <a id="foxyform_embed_link_745212" href="http://www.foxyform.com/">foxyform</a>
+          <script type="text/javascript">
+          (function(d, t){
+             var g = d.createElement(t),
+                 s = d.getElementsByTagName(t)[0];
+             g.src = "http://www.foxyform.com/js.php?id=745212&sec_hash=eee9ca22e14&width=350px";
+             s.parentNode.insertBefore(g, s);
+          }(document, "script"));
+          </script>
+          <!-- Do not change the code! -->
+        </div>
+        <div class="col-lg-4">
+          <a class="twitter-timeline" href="https://twitter.com/ideasbymistake" data-widget-id="691327534701662208">Tweets by @ideasbymistake</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+      </div>
+      
+      
+      <hr class="featurette-divider">
+      
+      <div class="col-lg-12 well" id="map" style="height:300px;"></div>
+      
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
@@ -217,15 +237,29 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     
+    <!--twitter widget-->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    
+    <!--github user card widget-->
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+    
     <!--google maps-->
     <!-- Replace the API Key with your own -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAqKjF9QZ5uVtBBPZnDWhNWaeT1DVYjdQ&callback=initMap" async defer></script>
+    <script>
+      (function(){
+        var gm=document.createElement('script'); 
+        gm.src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAqKjF9QZ5uVtBBPZnDWhNWaeT1DVYjdQ&callback=initMap";
+        gm.async=true; gm.defer=true;
+        var s = document.getElementsByTagName('script')[0]; 
+        s.parentNode.insertBefore(gm,s);
+      })();
+    </script>
     <script type="text/javascript">
         var map;
         function initMap() {
           map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: -34.397, lng: 150.644},
-            zoom: 8
+            center: {lat: 53.4308326, lng: -2.9630187},
+            zoom: 10
           });
         }
     </script>
