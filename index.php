@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,15 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="a tutorial about creating a portfolio webpage showing best practices">
     <meta name="author" content="by-mistake.com">
+    <meta name="title" content="Learbymistake - portfolio wannabe ^_^">
+    <meta name="keywords" content="tutorial, learn, excercise, creativity">
+    
+    <!--facebook open graph protocol-->
+    <meta property="og:title" content="Learbymistake - portfolio wannabe ^_^" />
+    <meta property="og:type" content="tutorial" />
+    <meta property="og:url" content="http://twich-tut-webapp-repkit.c9users.io/index.php" />
+    <meta property="og:image" content="http://res.cloudinary.com/by-mistake-com/image/upload/v1452343689/logo.by-mistake.v3.1_210x210_rfop8f.png" />
+    
     <link rel="icon" href="../../favicon.ico">
 
     <title>Learbymistake - portfolio wannabe ^_^</title>
@@ -64,7 +73,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="http://res.cloudinary.com/repkit-by-mistake-com/image/upload/v1454255141/creative_yhigku.png" alt="Creative">
+          <img class="first-slide" src="http://res.cloudinary.com/repkit-by-mistake-com/image/upload/v1454255141/creative_yhigku.png" alt="Creative tutorial" name="first slide excercise">
           <div class="container">
             <div class="carousel-caption">
               <h1>Creativity</h1>
@@ -212,6 +221,15 @@
         </div>
       </div>
       
+      <div class="row">
+        <div class="col-lg-6">
+          <script type="text/javascript" src="http://ytchannelembed.com/ytce-frgallery.js"></script><div style="width:100%;max-width:420px;" class="ytce" data-user="CreativeMonkeyzArmy" data-rows="3" data-ratio="hd" data-width="130" data-margin="15" data-desc="100" data-desc_color="9E9E9E" data-title="30" data-title_color="000000" data-https="1" data-duration="1" data-views="1" data-likes="1" data-dislikes="1" data-fav="1" data-cols="3" ></div>
+        </div>
+        <div class="col-lg-6">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLTjyOObGk_JAgw0giTDVGxMnLRmewRKex" frameborder="0" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLkgWEYvTsgqHO6vTqQEqWxBlW_6ykRmYz" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
       
       <hr class="featurette-divider">
       
@@ -219,6 +237,18 @@
       
       <!-- FOOTER -->
       <footer>
+        <div class="row">
+          <div class="col-lg-12" itemscope itemtype="http://schema.org/PostalAddress">
+            <strong><span itemprop="name">by-mistake.com</span></strong>
+            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="display:inline;">
+            Postal code <span itemprop="postalCode">100306</span>
+            <span itemprop="addressLocality">Ploisti</span>, <span itemprop="addressRegion">PH</span>
+            <span itemprop="streetAddress">Cozia 73</span>
+            <span itemprop="addressCountry">Romania</span>
+            </div>
+          </div>
+        </div>
+        
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
